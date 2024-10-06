@@ -1,0 +1,45 @@
+.navbar.bg-body-tertiary {
+  background-color: #171520 !important; /* Color de fondo del navbar */
+  padding: 10px; /* Espacio entre el contenido y el borde del navbar */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Tamaño de la marca del navbar */
+  font-weight: bold; /* Peso de la fuente de la marca del navbar */
+  color: #f7d85c; /* Color de la marca del navbar */
+}
+
+.nav-link {
+  color: #fff; /* Color de los links del navbar */
+  transition: color 0.2s ease; /* Transición de color para los links del navbar */
+}
+
+.nav-link:hover {
+  color: #ccc; /* Color de los links del navbar al pasar el mouse */
+}
+
+.navbar .nav-link.active {
+  color: #ff7edb; /* Color del texto del enlace activo */
+  border-bottom: 2px solid #ff7edb; /* Borde inferior del enlace activo */
+}
+
+.nav-dropdown {
+  background-color: #333; /* Color de fondo del dropdown */
+  border: none; /* Borde del dropdown */
+  border-radius: 0; /* Radio del borde del dropdown */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra del dropdown */
+}
+
+.nav-dropdown-item {
+  color: #fff; /* Color de los items del dropdown */
+  transition: color 0.2s ease; /* Transición de color para los items del dropdown */
+}
+
+.nav-dropdown-item:hover {
+  color: #ccc; /* Color de los items del dropdown al pasar el mouse */
+}
+
+.nav-dropdown-item.active {
+  color: #ff69b4; /* Color de los items activos del dropdown */
+  font-weight: bold; /* Peso de la fuente de los items activos del dropdown */
+}
